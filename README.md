@@ -18,6 +18,8 @@ import "./settings"
 
 
 ## Vite Plugin
+[package](/packages/vite-plugin/README.md)
+
 #### Installation
 ```sh
 npm install --save-dev @skip-index/vite-plugin
@@ -38,6 +40,8 @@ export default defineConfig({
 ```
 
 ## TypeScript Plugin
+[package](/packages/ts-plugin/README.md)
+
 #### Installation
 ```sh
 npm install --save-dev @skip-index/ts-plugin
