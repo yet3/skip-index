@@ -3,7 +3,7 @@
 A TypeScript plugin that resolves a directory import to a file within that mirrors its name.
 
 Needs to be used with a bundler plugin to fully work, this plugin just resolves the types.
-- [@skip-index/vite-plugin](../vite-plugin/README.md)
+- [@skip-index/vite-plugin](https://github.com/yet3/skip-index/blob/main/packages/ts-plugin/README.md)
 
 ### Installation
 ```sh
