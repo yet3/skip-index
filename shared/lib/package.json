@@ -1,0 +1,10 @@
+{
+	"name": "@shared-lib",
+	"private": true,
+	"main": "./src/index.ts",
+	"devDependencies": {
+		"@types/bun": "catalog:",
+		"typescript": "catalog:",
+		"vitest": "catalog:"
+	}
+}

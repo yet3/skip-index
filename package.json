@@ -1,0 +1,24 @@
+{
+  "name": "skip-index-monorepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**",
+      "shared/**"
+    ],
+    "catalog": {
+      "@types/bun": "latest",
+      "typescript": "^5",
+      "tsup": "^8.5.1",
+      "vitest": "^4.1.9"
+    }
+  },
+  "scripts": {
+    "check": "biome check --write ./packages ./shared/",
+    "build": "bun run --filter '*' build",
+    "publish": "bun run --filter '*' publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.0"
+  }
+}
