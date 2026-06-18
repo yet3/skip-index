@@ -4,6 +4,9 @@
 	"version": "1.0.0",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
+	"license": "MIT",
+	"author": "yet3",
+	"description": "A vite plugin that remove the need for `index.ts` barrel files.",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
@@ -30,5 +33,13 @@
 	},
 	"peerDependencies": {
 		"vite": "*"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yet3/skip-index.git"
+	},
+	"bugs": {
+		"url": "https://github.com/yet3/skip-index/issues"
+	},
+	"homepage": "https://github.com/yet3/skip-index/tree/main/packages/vite-plugin#readme"
 }
