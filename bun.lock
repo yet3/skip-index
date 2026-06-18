@@ -10,12 +10,10 @@
     },
     "packages/ts-plugin": {
       "name": "@skip-index/ts-plugin",
-      "version": "1.0.0",
-      "dependencies": {
-        "shared-lib": "workspace:*",
-      },
+      "version": "1.0.2",
       "devDependencies": {
         "@types/bun": "catalog:",
+        "shared-lib": "workspace:*",
         "tsup": "catalog:",
         "typescript": "catalog:",
         "vitest": "catalog:",
@@ -23,12 +21,10 @@
     },
     "packages/vite-plugin": {
       "name": "@skip-index/vite-plugin",
-      "version": "1.0.0",
-      "dependencies": {
-        "shared-lib": "workspace:*",
-      },
+      "version": "1.0.2",
       "devDependencies": {
         "@types/bun": "catalog:",
+        "shared-lib": "workspace:*",
         "tsup": "catalog:",
         "typescript": "catalog:",
         "vite": "^8.0.16",
