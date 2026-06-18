@@ -1,7 +1,8 @@
 {
-	"name": "@shared-lib",
+	"name": "shared-lib",
 	"private": true,
 	"main": "./src/index.ts",
+  "version": "1.0.0",
 	"devDependencies": {
 		"@types/bun": "catalog:",
 		"typescript": "catalog:",
